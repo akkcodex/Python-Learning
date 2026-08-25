@@ -72,7 +72,7 @@ print(type(c))
 
 # ---------------------------------------------
 
-# casting
+# CASTING:
 
 # casting in python is therefore done using constructor functions:
 
@@ -97,7 +97,7 @@ z = str(3.0)   # z will be '3.0'
 
 # ----------------------------------------------
 
-# strings:
+# STRINGS:
 
 # strings in python are surrounded by either single quotation marks, or double quotation marks.
 
