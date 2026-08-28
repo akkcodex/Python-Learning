@@ -499,10 +499,3 @@ print(result)       # Output: Apple, Mango, Banana
 # Add "purple" to the end of the list using append()
 # Remove "red" from the list using remove()
 # Print the list
-
-colors = ["red", "green", "blue"]
-print(colors[0])
-colors[1] = "yellow"
-colors.append("purple")
-colors.remove("red")
-print(colors)
