@@ -167,6 +167,8 @@ if age >= 18:
 
 # The match statement is used to compare
 # a value against different patterns.
+# Instead of writing many if..else statements 
+# you can use the match statement.
 
 day = 2
 
@@ -182,6 +184,24 @@ match day:
 
 # Output:
 # Tuesday
+
+# The match expression is evaluated once.
+# The value of the expression is compared with the values of each case.
+# If there is a match, the associated block of code is executed.
+
+
+# If you want a code block to execute when there are no other matches
+# Use underscore character _ as the case value.
+
+day = 4
+match day:
+
+    case 6:
+        print("Today is Saturday")
+    case 7:
+        print("Today is Sunday")
+    case _:
+        print("looking forward to the weekend")
 
 
 # ============================================
